@@ -2,14 +2,12 @@
 
 > Демо доступно по ссылке: https://zeta-centauri.github.io/smartway-test-app/
 
----
 
 ## Для запуска dev-сборки:
 
 1. `npm i`
 2. `npm run dev`
 
----
 
 ## Реализовано:
 
