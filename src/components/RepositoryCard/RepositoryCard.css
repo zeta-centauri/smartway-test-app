@@ -1,0 +1,113 @@
+.repository-card {
+  min-width: 282px;
+  max-width: 282px;
+
+  height: 180px;
+  padding: 24px;
+  display: flex;
+
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+  justify-content: center;
+
+  border-radius: 20px;
+
+  background-color: #ffffff;
+  border: 1px solid rgba(58, 58, 58, 0.12);
+
+  @media (width <= 1350px) {
+    max-width: 100%;
+  }
+}
+.card__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card__header {
+  display: flex;
+  align-items: center;
+}
+
+.card-achievments {
+  display: flex;
+  gap: 12px;
+}
+.card__stat-block {
+  padding: 4px 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  background-color: #f1f5f9;
+  border-radius: 12px;
+
+  span {
+    font-family: Suisse_Intl;
+    font-size: 9px;
+    font-weight: 450;
+  }
+}
+.card__avatar {
+  display: flex;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: auto;
+  img {
+    border-radius: 50%;
+  }
+}
+
+.card__links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+
+  .card__owner-link {
+    width: 100%;
+
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 115%;
+    color: #3a3a3a;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .card__repo-link {
+    width: 100%;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    color: #1e89f0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.card__buttons {
+  display: flex;
+  align-items: center;
+}
+.details-link {
+  margin-left: auto;
+  padding: 8px 16px;
+
+  border-radius: 8px;
+  background: #d44333;
+
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 100%;
+  &:hover {
+    background-color: #bf3c2d;
+  }
+}

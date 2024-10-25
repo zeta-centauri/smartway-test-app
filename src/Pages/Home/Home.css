@@ -1,0 +1,7 @@
+.search__container {
+  padding: 48px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}

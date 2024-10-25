@@ -1,0 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@font-face {
+  font-family: "Suisse_Intl";
+  font-style: normal;
+  font-weight: 450;
+  src: local("Suisse Int'l"), url("/fonts/Suisse_Intl/SuisseIntl-Book.woff2") format("woff2");
+}

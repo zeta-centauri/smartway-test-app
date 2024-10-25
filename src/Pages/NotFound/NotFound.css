@@ -1,0 +1,16 @@
+.not-found {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+  gap: 30px;
+}
+.not-found__title {
+  font-size: 32px;
+  font-weight: 600;
+}
+.not-found__link {
+  color: black;
+  text-decoration: underline;
+}

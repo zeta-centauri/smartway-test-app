@@ -1,0 +1,21 @@
+@import "./fonts.css";
+@import "./reset.css";
+body {
+  font-family: "Noto Sans", sans-serif;
+  background: rgba(58, 58, 58, 0.04);
+  height: 100%;
+}
+html {
+  height: 100%;
+  overflow-y: scroll;
+}
+#root {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container {
+  max-width: 1200px;
+  width: 90%;
+  margin: 0 auto;
+}

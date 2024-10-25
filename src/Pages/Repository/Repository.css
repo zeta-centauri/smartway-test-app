@@ -1,0 +1,16 @@
+.repository-container {
+  padding: 24px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.back-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  color: #3a3a3a;
+}
