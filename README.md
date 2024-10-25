@@ -1,30 +1,20 @@
-# React + TypeScript + Vite
+# Тестовое задание на позицию Frontend-разработчика в Smartway
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> Демо доступно по ссылке: https://zeta-centauri.github.io/smartway-test-app/
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Для запуска dev-сборки:
 
-## Expanding the ESLint configuration
+1. `npm i`
+2. `npm run dev`
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+---
 
-- Configure the top-level `parserOptions` property like this:
+## Реализовано:
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
-
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+- Страницы поиска, избранных репозиториев и детальной информации о репозитории
+- Поиск с автокомплитом.
+- Debounce для поиска репозиториев (решил, что для поиска подходит лучше, чем throttling).
+- Сортировка репозиториев (По кол-ву звезд, кол-ву форков и дате обновления).
+- Копирование ссылки в clipboard с помощью clipboard-copy
